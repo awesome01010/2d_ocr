@@ -26,7 +26,7 @@ Pytorch >= 1.1.0
 
 2. test on images which in demo_image folder
 ```bash
-python demo.py --image_folder demo_image --saved_model <model_path/best_accuracy.pth>
+python demo.py --image_folder demo_image --saved_model <model_path/best_accuracy.pth>  
 ```
 
 3. some examples  

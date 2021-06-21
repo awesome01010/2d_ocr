@@ -22,12 +22,11 @@ Pytorch >= 1.1.0
 
 
 ## Test
-1. download the pretrained model [Baidu](https://pan.baidu.com/s/1W1Uhw06kULzpVSl4lAP9zQ) *password:* kdah.
+1. download the pretrained model [Baidu](https://pan.baidu.com/s/1tcYPOzxk3_91YalKyYIwug) *password:* 6ovu.
 
 2. test on images which in demo_image folder
 ```bash
-python demo.py --image_folder demo_image --saved_model <model_path/best_accuracy.pth>  
-模型路径：https://pan.baidu.com/s/1tcYPOzxk3_91YalKyYIwug 提取码：6ovu
+python demo.py --image_folder demo_image --saved_model <model_path/best_accuracy.pth>
 ```
 
 3. some examples  

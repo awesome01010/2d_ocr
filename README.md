@@ -9,10 +9,6 @@ At present, the accuracy of the paper cannot be achieved. And i borrowed code fr
 **model**
 <img src='./demo_image/model.png'> 
 
-**result**  
-Test on ICDAR2019 with only 51.15%, will continue to improve.
-<img src='./demo_image/result.png'>
-
 **Feature**
 1. Output image string once not like the seqtoseq model
 
@@ -22,7 +18,7 @@ Pytorch >= 1.1.0
 
 
 ## Test
-1. download the pretrained model [Baidu](https://pan.baidu.com/s/1tcYPOzxk3_91YalKyYIwug) *password:* 6ovu.
+1. download the pretrained model [Baidu](https://pan.baidu.com/s/1tcYPOzxk3_91YalKyYIwug) *password:* 6ovu
 
 2. test on images which in demo_image folder
 ```bash
@@ -38,10 +34,10 @@ python train.py --select_data baidu  --root train_images --train_csv train.txt -
 ```
 
 ## Txt reference
-image_name gt
-image_name gt
-......
-image_name gt
+image_name,gt  
+image_name,gt  
+......  
+image_name,gt
 
 
 ## Reference

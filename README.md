@@ -27,6 +27,7 @@ Pytorch >= 1.1.0
 2. test on images which in demo_image folder
 ```bash
 python demo.py --image_folder demo_image --saved_model <model_path/best_accuracy.pth>  
+模型路径：https://pan.baidu.com/s/1tcYPOzxk3_91YalKyYIwug 提取码：6ovu
 ```
 
 3. some examples  
